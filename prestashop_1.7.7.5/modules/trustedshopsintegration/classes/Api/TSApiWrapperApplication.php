@@ -1,0 +1,58 @@
+<?php
+/**
+* 2016-2021 Trusted Shops GmbH
+*
+* NOTICE OF LICENSE
+*  @author    Trusted Shops GmbH
+*  @copyright 2016-2021 Trusted Shops GmbH
+*  @license   http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+*
+*/
+
+require_once 'TSApiWrapperAbstract.php';
+
+/**
+ * @desc: API Client of Trusted Shops
+ */
+class TSApiWrapperApplication extends TSApiWrapperAbstract implements TSApiWrapperInterface
+{
+
+    protected $uri = '/rest/internal/v2/applications.json';
+
+    protected $method = 'POST';
+
+    /**
+     * @desc: check if wrapper is correctly configurated
+     *
+     * @return boolean
+     */
+    public function check()
+    {
+        if ($this->input == null) {
+            return false;
+        }
+
+        return true;
+    }
+
+    /**
+     * @desc: check if wrapper is correctly configurated
+     * @param: $response TSApiResponse Response object
+     * @param: $data     string        json response
+     *
+     * @return this
+     */
+    public function parseReponse(TSApiResponse $response, $data)
+    {
+        $data = json_decode($data, true);
+        if ($data['response']['code'] == 409) {
+            $response->setStatus('fail');
+            $response->addError($data['response']['message']);
+
+            return $this;
+        }
+        $response->setContent($data['response']['data']);
+
+        return $this;
+    }
+}
