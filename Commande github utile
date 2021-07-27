@@ -1,0 +1,32 @@
+…ou créez un nouveau référentiel sur la ligne de commande
+echo "# EpivracTest" >> README.md 
+git init 
+git add README.md 
+git commit -m "first commit" 
+git branch -M main 
+git remote add origin https://github.com/LosseniSangare/EpivracTest.git
+ git push - u origine principale
+
+
+…ou pousser un dépôt existant depuis la ligne de commande
+git remote add origin https://github.com/LosseniSangare/EpivracTest.git
+ git branch -M main 
+git push -u origin main
+
+
+…ou importer du code depuis un autre référentiel
+Vous pouvez initialiser ce référentiel avec le code d'un projet Subversion, Mercurial ou TFS.
+https://github.com/LosseniSangare/EpivracTest/import
+
+
+Les Branches :
+
+creer : git branch NomBranche     (faire un git add et un git commit avant de l'utiliser)
+voir les branche : git branch
+se connecter a une branch : git checkout NomBranch
+merger de la branch master vers nombranch : git merge dev  (être sur le master)
+supprimé une branche
+git push origin --delete NomBranche
+
+
+
