@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.39, created on 2021-07-27 12:15:35
+/* Smarty version 3.1.39, created on 2021-07-28 08:59:57
   from '/var/www/html/prestashop_1.7.7.5/themes/classic/templates/catalog/_partials/category-header.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_60ffdcc7616701_34150703',
+  'unifunc' => 'content_6101006d65d3b0_08178225',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_60ffdcc7616701_34150703 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6101006d65d3b0_08178225 (Smarty_Internal_Template $_smarty_tpl) {
 ?><div id="js-product-list-header">
     <?php if ($_smarty_tpl->tpl_vars['listing']->value['pagination']['items_shown_from'] == 1) {?>
         <div class="block-category card card-block">

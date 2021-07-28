@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.39, created on 2021-07-27 12:13:18
+/* Smarty version 3.1.39, created on 2021-07-28 08:57:24
   from '/var/www/html/prestashop_1.7.7.5/themes/classic/templates/catalog/_partials/sort-orders.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_60ffdc3ea42c05_60821482',
+  'unifunc' => 'content_6100ffd4834f93_44621295',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_60ffdc3ea42c05_60821482 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6100ffd4834f93_44621295 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <span class="col-sm-3 col-md-3 hidden-sm-down sort-by"><?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>'Sort by:','d'=>'Shop.Theme.Global'),$_smarty_tpl ) );?>
 </span>

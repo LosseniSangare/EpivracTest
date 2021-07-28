@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.39, created on 2021-07-27 12:11:07
+/* Smarty version 3.1.39, created on 2021-07-28 08:57:47
   from '/var/www/html/prestashop_1.7.7.5/modules/ps_facetedsearch/views/templates/admin/manage.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_60ffdbbb0734b7_11989326',
+  'unifunc' => 'content_6100ffeb9c3c74_41651340',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:./_partials/messages.tpl' => 1,
   ),
 ),false)) {
-function content_60ffdbbb0734b7_11989326 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6100ffeb9c3c74_41651340 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_subTemplateRender('file:./_partials/messages.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);
 ?>
 

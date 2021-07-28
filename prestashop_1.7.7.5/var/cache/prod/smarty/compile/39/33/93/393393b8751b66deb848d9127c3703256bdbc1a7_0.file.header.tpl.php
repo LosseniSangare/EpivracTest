@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.39, created on 2021-07-27 12:02:13
+/* Smarty version 3.1.39, created on 2021-07-28 08:57:47
   from '/var/www/html/prestashop_1.7.7.5/admin534repnl2/themes/default/template/header.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_60ffd9a5ccd7f6_52752438',
+  'unifunc' => 'content_6100ffeba516d4_54267443',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:nav.tpl' => 1,
   ),
 ),false)) {
-function content_60ffd9a5ccd7f6_52752438 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6100ffeba516d4_54267443 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!DOCTYPE html>
 <!--[if lt IE 7]> <html lang="<?php echo $_smarty_tpl->tpl_vars['iso']->value;?>
 " class="no-js lt-ie9 lt-ie8 lt-ie7 lt-ie6"> <![endif]-->
@@ -201,8 +201,8 @@ $_smarty_tpl->tpl_vars['quick']->do_else = false;
 ?>
                 <li <?php ob_start();
 echo $_smarty_tpl->tpl_vars['quick']->value['link'];
-$_prefixVariable11 = ob_get_clean();
-if ($_smarty_tpl->tpl_vars['link']->value->matchQuickLink($_prefixVariable11)) {
+$_prefixVariable1 = ob_get_clean();
+if ($_smarty_tpl->tpl_vars['link']->value->matchQuickLink($_prefixVariable1)) {
 $_smarty_tpl->_assignInScope('matchQuickLink', $_smarty_tpl->tpl_vars['quick']->value['id_quick_access']);?>class="active"<?php }?>>
                   <a href="<?php echo call_user_func_array($_smarty_tpl->registered_plugins[ 'modifier' ][ 'escape' ][ 0 ], array( $_smarty_tpl->tpl_vars['quick']->value['link'],'html','UTF-8' ));?>
 " <?php if ($_smarty_tpl->tpl_vars['quick']->value['new_window']) {?>target="_blank"<?php }?>>
@@ -346,8 +346,8 @@ $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl, 1);?>
 
             <?php ob_start();
 echo $_smarty_tpl->tpl_vars['base_url']->value;
-$_prefixVariable12 = ob_get_clean();
-if ($_prefixVariable12) {?>
+$_prefixVariable2 = ob_get_clean();
+if ($_prefixVariable2) {?>
         <ul id="header-list" class="header-list">
           <li class="shopname" data-mobile="true" data-from="header-list" data-target="menu">
             <?php if ((isset($_smarty_tpl->tpl_vars['is_multishop']->value)) && $_smarty_tpl->tpl_vars['is_multishop']->value && $_smarty_tpl->tpl_vars['shop_list']->value && ((isset($_smarty_tpl->tpl_vars['multishop_context']->value)) && $_smarty_tpl->tpl_vars['multishop_context']->value&Shop::CONTEXT_GROUP || $_smarty_tpl->tpl_vars['multishop_context']->value&Shop::CONTEXT_SHOP || $_smarty_tpl->tpl_vars['multishop_context']->value&Shop::CONTEXT_ALL)) {?>

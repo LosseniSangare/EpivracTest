@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.39, created on 2021-07-27 12:15:17
+/* Smarty version 3.1.39, created on 2021-07-28 08:57:24
   from '/var/www/html/prestashop_1.7.7.5/themes/classic/templates/catalog/_partials/variant-links.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_60ffdcb5340848_77999248',
+  'unifunc' => 'content_6100ffd4897119_94425058',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_60ffdcb5340848_77999248 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6100ffd4897119_94425058 (Smarty_Internal_Template $_smarty_tpl) {
 ?><div class="variant-links">
   <?php
 $_from = $_smarty_tpl->smarty->ext->_foreach->init($_smarty_tpl, $_smarty_tpl->tpl_vars['variants']->value, 'variant');
